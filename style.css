@@ -1,0 +1,47 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carousel
+{
+    height: 200px;
+    width: auto;
+    background-color: rgb(218, 213, 213);
+}
+
+#flexbox
+{
+    display: flex;
+    height: 150px;
+    column-gap: 5px;
+}
+#flexbox > article {
+    background-color: rgb(218, 213, 213);  
+    flex: auto; 
+}
+
+.soustitre{
+    color: grey;
+   text-align: center;
+   margin-top: 0px;
+   line-height: 5em;
+}
+
+textarea
+{
+    line-height: 1em;
+    
+    height: 30px;
+    width: 90%;
+    grid-template-rows: 30px 8fr;
+}
+
+.message{
+    min-height: 100px;
+}
